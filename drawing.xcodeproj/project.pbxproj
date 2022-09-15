@@ -14,6 +14,8 @@
 		371F751E28D35E0B0065D647 /* drawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F751D28D35E0B0065D647 /* drawingTests.swift */; };
 		371F752828D35E0B0065D647 /* drawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F752728D35E0B0065D647 /* drawingUITests.swift */; };
 		371F752A28D35E0B0065D647 /* drawingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F752928D35E0B0065D647 /* drawingUITestsLaunchTests.swift */; };
+		371F753D28D367530065D647 /* GestureCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F753C28D367530065D647 /* GestureCircleView.swift */; };
+		371F753F28D3689E0065D647 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F753E28D3689E0065D647 /* BackgroundGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		371F752328D35E0B0065D647 /* drawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		371F752728D35E0B0065D647 /* drawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawingUITests.swift; sourceTree = "<group>"; };
 		371F752928D35E0B0065D647 /* drawingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		371F753C28D367530065D647 /* GestureCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureCircleView.swift; sourceTree = "<group>"; };
+		371F753E28D3689E0065D647 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				371F750C28D35E0A0065D647 /* drawingApp.swift */,
 				371F750E28D35E0A0065D647 /* ContentView.swift */,
+				371F753C28D367530065D647 /* GestureCircleView.swift */,
+				371F753E28D3689E0065D647 /* BackgroundGradientView.swift */,
 				371F751028D35E0B0065D647 /* Assets.xcassets */,
 				371F751228D35E0B0065D647 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371F753F28D3689E0065D647 /* BackgroundGradientView.swift in Sources */,
+				371F753D28D367530065D647 /* GestureCircleView.swift in Sources */,
 				371F750F28D35E0A0065D647 /* ContentView.swift in Sources */,
 				371F750D28D35E0A0065D647 /* drawingApp.swift in Sources */,
 			);
