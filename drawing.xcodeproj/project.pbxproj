@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		371F750D28D35E0A0065D647 /* drawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F750C28D35E0A0065D647 /* drawingApp.swift */; };
-		371F750F28D35E0A0065D647 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F750E28D35E0A0065D647 /* ContentView.swift */; };
 		371F751128D35E0B0065D647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371F751028D35E0B0065D647 /* Assets.xcassets */; };
 		371F751428D35E0B0065D647 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371F751328D35E0B0065D647 /* Preview Assets.xcassets */; };
 		371F751E28D35E0B0065D647 /* drawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371F751D28D35E0B0065D647 /* drawingTests.swift */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		371F750928D35E0A0065D647 /* drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		371F750C28D35E0A0065D647 /* drawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawingApp.swift; sourceTree = "<group>"; };
-		371F750E28D35E0A0065D647 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		371F751028D35E0B0065D647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		371F751328D35E0B0065D647 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		371F751928D35E0B0065D647 /* drawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				371F750C28D35E0A0065D647 /* drawingApp.swift */,
-				371F750E28D35E0A0065D647 /* ContentView.swift */,
 				371F753C28D367530065D647 /* GestureCircleView.swift */,
 				371F753E28D3689E0065D647 /* BackgroundGradientView.swift */,
 				371F751028D35E0B0065D647 /* Assets.xcassets */,
@@ -265,7 +262,6 @@
 			files = (
 				371F753F28D3689E0065D647 /* BackgroundGradientView.swift in Sources */,
 				371F753D28D367530065D647 /* GestureCircleView.swift in Sources */,
-				371F750F28D35E0A0065D647 /* ContentView.swift in Sources */,
 				371F750D28D35E0A0065D647 /* drawingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
